@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in html</title>
+
+    <style>
+        form{
+        text-align: center;
+        background-color: #f2f6ff ;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        height: 1080px;
+        }
+
+.heading{
+  font-size: 32px;
+padding-top: 56px;
+padding-bottom: 32px;
+
+}
+
+    .logo{
+       width: 50px;
+        height: 50px;
+        padding-right: 32px;
+        padding-top: 16px;
+        padding-left: 32px;
+        padding-bottom: 16px;
+      
+    }
+    #inputbox{
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        border-bottom: 1px solid #ccc;
+        font-size: 18px;
+        padding-bottom: 12px;
+        margin-bottom: 50px;
+        text-align: center;
+        background-color: #f2f6ff;
+        width: 100%;
+
+    }
+    .input-wrapper{
+     padding-top: 80px ;
+     padding-left: 80px ;
+     padding-right:  80px;
+     padding-bottom: 40px;
+    }
+    #Registre{
+        background-color: #0056ff;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 18px;
+        color: white;
+        border: none;
+        border-radius: 13px;
+    }
+       
+    </style>
+</head>
+<body style="background-color: #ccc;">
+   <form >
+    <h1 class="heading"> Register</h1>
+    <div style="background-color: #ccc; ">
+         <img class="logo"  src="https://pluspng.com/img-png/google-logo-png-open-2000.png" alt="Google Logo">
+         <img class="logo" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" alt="Facebook Logo">
+         <img class="logo"  src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" alt="LinkedIn Logo">
+    </div>
+
+       <div class="input-wrapper">
+        <input id="inputbox" type="text" name="username" placeholder="Username" autofocus>
+        <input id="inputbox" type="email" name="email" placeholder="Email" autofocus>
+        <input id="inputbox" type="Password" name="Password" placeholder="Password" autofocus>
+        <input id="inputbox" type="password" name="confirme-password" placeholder="confirme password" autofocus>
+        <input id="Registre" type="submit" name="Registre" value="Registre">
+       </div>
+
+   </form>
+</body>
+</html>
